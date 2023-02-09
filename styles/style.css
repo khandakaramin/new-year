@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans';
 }
 
 .container{
@@ -54,4 +54,47 @@
     font-size: 25px;
     border-radius: 5px;
     border-style: none;
+}
+.detail-container{
+    width: 1072px;
+    height: 723px;
+    padding-left: 206px;
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    width: 288px;
+    height: 94px;
+    padding-left: 450px;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 47px;
+    
+
+}
+
+.detail-container, .pic{
+    width: 569px;
+    height: 723px;
+    margin-top: 131px;
+    
+}
+
+.summary{
+    font-weight: 400px;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+h6{
+    width: 240px;
+    height: 26px;
+    margin-top: 16px;
+    font-size: 12px;
+    margin-right: 50px;
+
 }
